@@ -2,7 +2,6 @@ package com.dwellant.postmarklondon;
 
 import com.facebook.react.ReactActivity;
 import android.os.Bundle; // required for onCreate parameter
-import com.reactnativecomponent.splashscreen.RCTSplashScreen;
 
 public class MainActivity extends ReactActivity {
 
@@ -17,8 +16,6 @@ public class MainActivity extends ReactActivity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
-      RCTSplashScreen.openSplashScreen(this);   //open splashscreen
-      //RCTSplashScreen.openSplashScreen(this, true, ImageView.ScaleType.FIT_XY);   //open splashscreen fullscreen
       super.onCreate(savedInstanceState);
   }
 }
